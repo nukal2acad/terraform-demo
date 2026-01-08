@@ -18,3 +18,11 @@ variable "vm-name" {
 variable "no-of-vms" {
   type = number
 }
+#variable section for map data type
+variable "ec2-instances" {
+  type = map(string)
+  default = {
+    "web" = "t3.micro"
+    "db" = "t2.micro"
+  }
+}
