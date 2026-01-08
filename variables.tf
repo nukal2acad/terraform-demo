@@ -7,7 +7,7 @@ variable "ec2-ami" {
 variable "vm-size" {
   type = string
   description = "variable for vm size"
-  default = "t3.micro"
+  default = "t2.micro"
 }
 
 variable "vm-name" {
