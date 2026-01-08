@@ -14,3 +14,7 @@ variable "vm-name" {
   type = string
   default = "Narik-vm1"
 }
+
+variable "no-of-vms" {
+  type = number
+}
