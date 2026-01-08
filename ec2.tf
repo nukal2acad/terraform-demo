@@ -1,4 +1,4 @@
-resource "aws_instance" "ec2-t3" {
+resource "aws_instance" "ec2" {
   ami           = var.ec2-ami
   instance_type = var.vm-size
   count = var.no-of-vms
